@@ -1,0 +1,170 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#cabecalho {
+    display: flex;
+    background-color:#EDDFCA;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+.navegacao{
+    display: flex;
+}
+.navegacao ul {
+ 
+    display: flex;
+    justify-content: space-between;
+     margin-top: 25px;
+     gap: 16px;
+    }
+
+    #cabecalho .navegacao a:hover {
+        color: black;
+        background-color: #CA803C;
+        border-radius: 30px;
+        padding: 5px;
+        transition-duration: 0.8s;
+      }
+  
+    .navegacao a {
+        align-items: center;
+        gap: 100px;
+      
+    }
+
+    .navcolor p a{
+        color: black;
+        display: flex;
+       margin-right: 90px;
+        margin-top: 25PX;
+        text-decoration: none;
+    }
+    #corprincipal {
+        background-color: #FCF6F6;
+    }
+
+h1{
+    font-size: 2.5em;
+    margin-right: 450px;
+}
+
+    h2 {
+        text-align: center;
+       padding: 45px;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    #fileira1{
+        display: flex;
+        justify-content: center;
+        background-color:#FFFFFF;
+        gap: 100px;
+    }
+
+    #fileira1 h4 {
+        text-align: center;
+        padding: 10px;
+       
+    }
+
+    #fileira2 {
+        display: flex;
+        justify-content: center;
+        background-color:#FFFFFF;
+        gap: 100px; 
+    }
+
+    #fileira2 h4 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #fileira3 {
+        display: flex;
+        justify-content: center;
+        background-color:#FFFFFF;
+        gap: 100px; 
+
+    }
+
+    #fileira3 h4 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #fileira4{
+
+        display: flex;
+        justify-content: center;
+        background-color:#FFFFFF;
+        gap: 100px; 
+
+    }
+
+    #fileira4 h4 {
+        text-align: center;
+        padding: 10px;
+    }
+    #but {
+      text-align: center;
+      padding: 60px;        
+    }
+
+    #but button {
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #CA803C;
+        padding: 15px 25px;
+        border-radius: 20px;
+        border: none
+    }
+
+    #rodape{
+        background-color: #EDDFCA;
+    }
+
+    .organizartext {
+        display: flex;
+        justify-content: center;
+       padding-bottom: 30px;
+       padding: 20px;
+    }
+    
+    .organizartext div {
+        padding: 50px;
+        display: block;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        
+    }
+
+    #titulo1 h3{
+        padding-bottom: 20px;
+       
+    }
+    
+    #titulo2 h3{
+        padding-bottom: 20px;
+    }
+    
+    #titulo1{
+      margin-right: 200px;
+    }
+    
+    #titulo2 {
+        margin-left: 100px;
+    }
+
+    #tipos h3{
+        padding: 20px;
+        cursor: pointer;
+    }
+    

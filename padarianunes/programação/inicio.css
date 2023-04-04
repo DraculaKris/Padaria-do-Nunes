@@ -1,0 +1,201 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.5s;
+}
+
+#cabecalho {
+    display: flex;
+    background-color:#EDDFCA;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+.navegacao .listen a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(240, 240, 200);
+    transition: all 0.5s ease;
+  }
+  .navegacao .listen a:hover:before {
+    width: 100%;
+  }
+
+  .navegacao .listen a{
+    border-bottom: none;
+  }
+
+  .navegacao .listen a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-weight: bold;
+    border-bottom: 3px solid #000;
+  }
+.barradebusca {
+    justify-content: center;
+    text-align: center;
+}
+
+.barra input{
+    padding: 15px;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.barra button{
+    padding: 13px;
+    border-radius: 15px;
+}
+
+.navegacao nav a{
+    text-decoration: none;
+}
+.navegacao nav ul{
+    margin-right: 20px;
+    cursor: pointer;
+}
+      
+
+
+  .paocorpo{
+    position: relative;
+    width: 100%;
+    height: 568px;
+    background-size: cover;
+    background-image: url(../programação/img/ummontedepão.jpg);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paocorpo h1,
+.paocorpo h2 {
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+}
+
+.navegacao nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 600px;
+}
+
+#tipos {
+display: flex;
+justify-content: space-between;
+padding: 15px;
+text-align: center;
+margin-top: 40PX;
+}
+
+.paoo a{
+    text-decoration: none;
+    color: black;
+}
+
+#parte3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background:#EDDFCA;
+}
+
+.titulo {
+    padding: 15px;
+}
+
+.sobrenos {
+    margin: 20px;
+    padding: 20px;
+}
+
+#style{
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+    width: 700px;
+    margin-left: 50px;
+  
+}
+
+#style h2 {
+ 
+    padding: 20px;
+}
+
+#style h3 {
+  
+    padding: 20px;
+}
+
+#rodape{
+    background-color: #FAF6F6;
+}
+.organizartext {
+    display: flex;
+    justify-content: center;
+   padding-bottom: 30px;
+   padding: 20px;
+}
+
+.organizartext div {
+    padding: 50px;
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+}
+
+.overlay {
+    background-color: #000;
+    opacity: .5;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+}
+#titulo1 h3{
+    padding-bottom: 20px;
+   
+}
+
+#titulo2 h3{
+    padding-bottom: 20px;
+}
+
+#titulo1{
+  margin-right: 200px;
+}
+
+#titulo2 {
+    margin-left: 100px;
+}
+
+#style h2 {
+    color: #000;
+}
+
+.navegacao a{
+color:black;
+}
+
+#tipos h3{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.click {
+cursor: pointer;
+}
+
